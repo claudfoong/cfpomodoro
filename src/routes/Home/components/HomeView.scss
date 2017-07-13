@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+
+body {
+  background-image: url('../assets/Wall.jpg');
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+section {
+  height: 1000px;
+  background-image: url('../assets/Table.png');
+  background-repeat: no-repeat;
+}
+
+#instructions {
+  color: gray;
+  font-size: 12px;
+}
+
+h2 {
+  color: #fff;
+  text-align:center;
+}
+
+#pomodoro h1 {
+  font-family: Pacifico;
+  margin-bottom: 10px;
+  margin-top: 55px;
+  color: white;
+  font-size: 50px;
+}
+
+#message {
+  margin-top: 20px;
+  color: #999999;
+}
+
+#pomodoro {
+  position:relative;
+  left: 50px;
+  width: 450px;
+  height: 700px;
+  margin-top: 15px;
+  float: left;
+  background-image: url('../assets/IPad.png');
+  background-repeat: no-repeat;
+}
+
+#task {
+  position: relative;
+  float:right;
+  background-image: url('../assets/Paper.png');
+  height: 700px;
+  width: 50%;
+  background-color: none;
+  background-repeat: no-repeat;
+  margin-top:15px;
+}
+
+#task h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  margin-top: 120px;
+}
+
+#list {
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+#list span {
+  margin-right: 15px;
+}
+
+#field input {
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+#tick input{
+  width: 15px;
+  position:relative;
+  left: -50px;
+  cursor: pointer;
+  background-color: red;
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+#field {
+  float: left;
+}
+
+#battery {
+  width: 60px;
+  height: 20px;
+  margin-left: 195px;
+  margin-top: 20px;
+}
+
+#clock {
+  width:120px;
+  height: 240px;
+  //border-radius: 50%;
+  overflow:hidden;
+  position:relative;
+  margin:0px auto;
+  cursor: pointer;
+  -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+
+#clock div.inner {
+  background-color: #99CCCC;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+#clock span {
+  display:block;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 100px;
+  z-index: 2;
+}
+
+#options {
+  color:white;
+  font-size:20px;
+  text-align: center;
+}
+#options input {
+  color: #fff;
+  width: 100px;
+  padding: 5px 10px 5px 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background-color: grey;
+  border: 0px;
+  outline: none;
+}
+#options input:last-of-type {
+  margin-right: 0px;
+}
